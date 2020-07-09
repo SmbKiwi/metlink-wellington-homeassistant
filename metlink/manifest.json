@@ -1,0 +1,10 @@
+
+{
+  "codeowners": ["@SmbKiwi"],
+  "config_flow": false,
+  "dependencies": [],
+  "documentation": "https://github.com/SmbKiwi/metlink-wellington-homeassistant",
+  "domain": "metlink",
+  "name": "Metlink Wellington",
+  "requirements": []
+}
