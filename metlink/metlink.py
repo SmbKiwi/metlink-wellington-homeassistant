@@ -29,6 +29,7 @@ from .const import (
     ATTR_STOP_URL,
     CONF_ROUTE_NUMBER,
     CONF_STOP_NUMBER,
+    DOMAIN,
 )
 
 _LOGGER = logging.getLogger(__name__)
