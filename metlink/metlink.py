@@ -21,11 +21,14 @@ import requests
 import voluptuous as vol
 
 from homeassistant.components.sensor import PLATFORM_SCHEMA
-from homeassistant.const import ATTR_ATTRIBUTION
+from homeassistant.const import ATTR_ATTRIBUTION, ATTR_LATITUDE, ATTR_LONGITUDE
 import homeassistant.helpers.config_validation as cv
 from homeassistant.helpers.entity import Entity
 
 from .const import (
+    ATTR_ROUTE,
+    ATTR_STOP,
+    ATTR_STOPNAME,
     ATTR_STOP_URL,
     CONF_ROUTE_NUMBER,
     CONF_STOP_NUMBER,
@@ -79,18 +82,6 @@ def setup_platform(hass, config, add_entities, discovery_info=None):
     add_entities([MetlinkSensor(stop_number, route_number)])
 
 
-def service_summary(service):
-    realtime = "(sched)"
-    if service.is_real_time:
-        realtime = "(real)"
-
-    return "{} {} to {}".format(
-        realtime,
-        service.origin_stop_name,
-        service.destination_stop_name,
-    )
-
-
 class MetlinkSensor(Entity):
     """Implementation of an Metlink public transport sensor."""
 
@@ -125,11 +116,11 @@ class MetlinkSensor(Entity):
     def device_state_attributes(self):
         """Return the state attributes."""
         attributes = {
-            'Stop': self.stop_number,
-            'Route': self.route_number,
-            'StopName': self.metlink_stop.stop_name,
-            'Latitude': self.metlink_stop.latitude,
-            'Longitude': self.metlink_stop.longitude,
+            ATTR_STOP: self.stop_number,
+            ATTR_ROUTE: self.route_number,
+            ATTR_STOPNAME: self.metlink_stop.stop_name,
+            ATTR_LATITUDE: self.metlink_stop.latitude,
+            ATTR_LONGITUDE: self.metlink_stop.longitude,
             ATTR_ATTRIBUTION: ATTRIBUTION
         }
 
