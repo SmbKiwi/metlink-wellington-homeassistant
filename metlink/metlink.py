@@ -147,9 +147,9 @@ class MetlinkSensor(Entity):
             return "offline"
 
     def update(self):
-        """Get the latest data from Metlink and update the states."""
+        """Get the latest data from Metlink and update the states\icon."""
         url = ATTR_STOP_URL.format(stop_number=self.stop_number)
-        r = requests.get(url)
+        r = requests.get(url, timeout=10)
         self.metlink_stop = MetlinkStop(r.json())
         # get self.metlink_stop.services[0].service.mode
         current_service = self.metlink_stop.next_service(
