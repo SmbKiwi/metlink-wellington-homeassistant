@@ -4,7 +4,7 @@
                       
 # **Metlink Transport Sensor (Wellington Regional Transport Network). Sensor for Home Assistant.** 
 
-Metlink Wellington is a realtime transit sensor for Home Asssitant. 
+Metlink Wellington is a realtime transit sensor for Home Assistant. 
 
 
 
