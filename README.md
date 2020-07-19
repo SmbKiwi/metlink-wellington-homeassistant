@@ -1,10 +1,12 @@
 [![Build Status](https://travis-ci.org/Br3nda/metlink-wellington-homeassistant.svg?branch=master)](https://travis-ci.org/Br3nda/metlink-wellington-homeassistant)
 
 [*](https://icons8.com/icons/set/bus)![Bus](img/icons8-bus-48.png)   [*](https://icons8.com/icons/set/train)![Train](img/icons8-train-48.png)    [*](https://icons8.com/icons/set/water-transportation)![Ferry](img/icons8-water-transportation-48.png)  
-                      
-# **Metlink Transport Sensor (Wellington Regional Transport Network). Sensor for Home Assistant.** 
+  
+  # **Metlink Wellington Home Assistant**
+  
+## **A Home Assistant transport sensor for the Wellington Regional Transport Network.** 
 
-Metlink Wellington is a realtime transit sensor for Home Assistant. 
+Metlink Wellington Home Assistant is a custom component for Home Assistant, that provides a realtime sensor for a Metlink Wellington bus stop, train station, or ferry wharf. 
 
 
 
