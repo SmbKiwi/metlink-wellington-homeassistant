@@ -17,7 +17,7 @@ check this - The sensor returns n/a if no stop departure is found.
 ![RTI](img/rti.png)
 ![Item info screenshot](img/info.png)
 
-The Metlink [Metlink](https://www.metlink.org.nz/) website can help you to determine the exact stop and route to enter in the configuration.
+The [Metlink](https://www.metlink.org.nz/) website can help you to determine the exact stop and route to enter in the configuration.
 
 ### Configuration:
 
