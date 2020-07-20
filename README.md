@@ -25,11 +25,12 @@ Then add the data to your configuration.yaml file as shown in the example:
 
 Example configuration.yaml entry
 
+```
 sensor:
   - platform: metlink
     stop_number: a stop number or station/wharf id
     router_number: a router number or route id
-
+```
 
 
 ### Configuration Variables:
