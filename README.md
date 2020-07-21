@@ -6,11 +6,9 @@
   
 ## **A Home Assistant transport sensor for the Wellington Regional Transport Network.** 
 
-Metlink Wellington Home Assistant is a custom component for Home Assistant, that provides a transit sensor for a Metlink Wellington bus stop, train station, or ferry wharf. The sensor will give you the departure times or the mins until the next three departures from a given Metlink location for a selected route. Minutes are displayed when the departure is realtime, and times are displayed when a departure is scheduled but realtime information is not available because the service has not commenced from its starting location. 
+Metlink Wellington Home Assistant is a custom component for Home Assistant, that provides a transit sensor for a Metlink Wellington bus stop, train station, or ferry wharf. The sensor will display the next departure time or the mins until the next departure from a given Metlink location for a selected route. Minutes are displayed when the departure is realtime, and times are displayed when the departure is scheduled but realtime information is not available because the next service has not commenced from its starting location. 
 
-
-
-check this - The sensor returns n/a if no stop departure is found.
+The sensor returns no information if no departure for the stop and route is found. 
 
 ## Show the RTI (real time info) expected arrival time of the next bus
 
@@ -47,7 +45,7 @@ The route id for the service.
 
 A full configuration example could look like this:
 
-This is Willis street Grand Arcade (stop 5008). Three routes that stop at this location have been configured.  
+This is Willis Street Grand Arcade (stop 5008). Three routes that stop at this location have been configured. This will result in three sensors appearing in Home Assistant.  
 
 ```
 sensor:
