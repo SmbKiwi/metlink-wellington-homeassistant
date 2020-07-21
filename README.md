@@ -51,13 +51,13 @@ This is Willis Street Grand Arcade (stop 5008). Three routes that stop at this l
 sensor:
   - platform: metlink
     stop_number: 5008
-    route_number: 11
+    route_number: 2
   - platform: metlink
     stop_number: 5008
-    route_number: 43
+    route_number: 14
   - platform: metlink
     stop_number: 5008
-    route_number: 91
+    route_number: 52
 ```
 
 
