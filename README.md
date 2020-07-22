@@ -73,8 +73,6 @@ Attributes of the sensor (which you could use in a lovelace card or with a templ
 * ServiceMode:               
    Whether the service is a bus, train, or ferry
 
-Each configured location (stop/station/wharf) will appear on your map in Home Assistant.  
-
 ### Configuration:
 
 From the [Metlink](https://www.metlink.org.nz/) website determine the exact stop and route number/ID to enter in the configuration for your desired location and route.
@@ -89,6 +87,7 @@ sensor:
     stop_number: a stop number or station/wharf id
     router_number: a router number or route id
 ```
+Each configured location (stop/station/wharf) will appear on your map in Home Assistant.  
 
 ### Configuration Variables:
 
