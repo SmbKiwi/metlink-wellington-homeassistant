@@ -50,9 +50,11 @@ ServiceMode | Whether the service is a bus, train, or ferry
 
 From the [Metlink](https://www.metlink.org.nz/) website determine the exact stop and route number/ID to enter in the configuration for your desired location and route.
 
+You can obtain train station abbreviation codes (which are used as the stop_number for a train station) from  https://www.metlink.org.nz/getting-around/real-time-information/
+
 Then add the data to your configuration.yaml file as shown in the example:
 
-Example configuration.yaml entry
+#### Example configuration.yaml entry
 
 ```
 sensor:
