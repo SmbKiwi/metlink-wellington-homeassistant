@@ -10,7 +10,9 @@ Metlink Wellington Home Assistant is a custom component for Home Assistant, that
 
 The sensor returns no information if no departure for the stop and route is found. 
 
-## Sensor RTI (real time info) expected arrival in minutes of the next train at the station
+Below are some pictures of the sensor in operation in Home Assistant. 
+
+## Sensor RTI (real time info) arrival in minutes of the next train at the station
 
 ![RTI for the next train](img/metlink_train_sensor2.png)
 ![Realtime attributes info for the next train service](img/metlink_train_real.png)
@@ -19,6 +21,8 @@ The sensor returns no information if no departure for the stop and route is foun
 
 ![Time for the next train](img/metlink_train_sensor.png )
 ![Scheduled attributes info for the next train service](img/metlink_train_offline.png)
+
+## Home Assistant Sensor Attributes
 
 Attributes of the sensor (which you could use in a lovelace card or with a template in Home Assistant) are as follows:
 
