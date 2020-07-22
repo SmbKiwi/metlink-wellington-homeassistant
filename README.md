@@ -92,4 +92,7 @@ sensor:
 
 ## Credit
 
-Based on the research of @reedwade https://github.com/reedwade/metlink-api-maybe and initial code of @Br3nda https://github.com/Br3nda/metlink-wellington-homeassistant. 
+Thanks to:
+
+* @reedwade for his research of the Metlink API (https://github.com/reedwade/metlink-api-maybe) 
+* @Br3nda wrote the original python project - awesome work - on which this component is based (https://github.com/Br3nda/metlink-wellington-homeassistant) 
