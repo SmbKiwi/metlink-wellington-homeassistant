@@ -69,7 +69,7 @@ Each configured location (stop/station/wharf) will appear on your map in Home As
 Variable | Type | Required | Explanation
 ------------ | ------------- | ------------- | -------------
 stop_number | string | Yes | The number or ID for the stop/station/wharf
-route_number | string | Yes | The route number/id for the route (service).
+route_number | string | Yes | The route number/id for the route (service)
 
 ### Configuration Examples:
 
