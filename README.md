@@ -4,7 +4,7 @@
   
   # **Metlink Wellington Home Assistant**
   
-  Version 1.0 
+  Version 1.0  (Requires Home Assistant 0.97 or above)
   
 ## **A Home Assistant transport sensor for the Wellington Regional Transport Network.** 
 
