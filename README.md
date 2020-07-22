@@ -103,7 +103,7 @@ Each configured location (stop/station/wharf) will appear on your map in Home As
 
 A full configuration example could look like this:
 
-This is Willis Street Grand Arcade (stop 5008). Three routes that stop at this location have been configured. This will result in three sensors appearing in Home Assistant.  
+This is the Willis Street Grand Arcade bus stop (stop 5008). Three routes that stop at this location have been configured. This will result in three sensors appearing in Home Assistant.  
 
 ```
 sensor:
