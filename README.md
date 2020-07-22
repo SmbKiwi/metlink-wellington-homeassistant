@@ -28,50 +28,23 @@ Below are some pictures of the sensor in operation in Home Assistant.
 
 Attributes of the sensor (which you could use in a lovelace card or with a template in Home Assistant) are as follows:
 
-* Stop:                       
-   The number or ID for the stop/station/wharf
-
-* Route:                      
-   The number or ID for the route (service)
-   
-* StopName:                   
-   The name of the stop
-
-* Latitude:                   
-   Latitude for the location of the stop/station/wharf
-
-* Longitude:                  
-   Longitude for the location of the stop/station/wharf 
-
-* Operator:  
-   The business operating the service e.g. RAIL or a bus company 
-   
-* ExpectedDeparture:          
-   Time and day the next service is expected to depart from the location (real time service only)
-
-* DepartureStatus:            
-   Displays whether the service is on time or there is a delay from the expected time (real time service only)
-
-* IsRealTime:                 
-   Displays true if the info is realtime, otherwise is blank
-
-* OriginStopName:             
-   The location from where the service commences the route
-
-* DestinationStopName:        
-   The location where the service will finish the route
-
-* VehicleFeature:             
-   Displays any special features of the service e.g. a bus that can drop low to allow a wheelchair to enter
-   
-* ServiceID:                  
-   The number or ID for the route (service)
-
-* ServiceName:                
-   The name of the route (service)
-
-* ServiceMode:               
-   Whether the service is a bus, train, or ferry
+Attribute | Explanation
+------------ | -------------
+Stop | The number or ID for the stop/station/wharf
+Route | The number or ID for the route (service)
+StopName | The name of the stop
+Latitude | Latitude for the location of the stop/station/wharf
+Longitude | Longitude for the location of the stop/station/wharf 
+Operator | The business operating the service e.g. RAIL or a bus company 
+ExpectedDeparture |  Time and day the next service is expected to depart from the location (real time service only)
+DepartureStatus | Displays whether the service is on time or there is a delay from the expected time (real time service only)
+IsRealTime | Displays true if the info is realtime, otherwise is blank
+OriginStopName | The location from where the service commences the route
+DestinationStopName | The location where the service will finish the route
+VehicleFeature | Displays any special features of the service e.g. a bus that can drop low to allow a wheelchair to enter
+ServiceID | The number or ID for the route (service)
+ServiceName | The name of the route (service)
+ServiceMode | Whether the service is a bus, train, or ferry
 
 ### Configuration:
 
@@ -91,13 +64,10 @@ Each configured location (stop/station/wharf) will appear on your map in Home As
 
 ### Configuration Variables:
 
-* stop_number:  string  Required
-
-  The number/ID for the start bus stop, train station, or ferry wharf.
-
-* router_number:  string  Required
-
-  The route number/id for the route (service).
+Variable | Type | Required | Explanation
+------------ | ------------- | ------------- | -------------
+stop_number | string | Yes | The number or ID for the stop/station/wharf
+route_number | string | Yes | The route number/id for the route (service).
 
 ### Configuration Examples:
 
