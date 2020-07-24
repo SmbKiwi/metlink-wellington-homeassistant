@@ -73,10 +73,7 @@ def format_timestamp(t):
 
 def setup_platform(hass, config, add_entities, discovery_info=None):
 
-    """" Get the Metlink public transport sensor.
-        journal contains [0] Station ID start, [1] Station ID destination
-        [2] Station name start, and [3] Station name destination.
-    """
+    """"Get the Metlink public transport sensor."""
     route_number = config[CONF_ROUTE_NUMBER]
     stop_number = config[CONF_STOP_NUMBER]
     add_entities([MetlinkSensor(stop_number, route_number)])
@@ -89,17 +86,14 @@ class MetlinkSensor(Entity):
         """"Initialize the sensor."""
         self.stop_number = stop_number
         self.route_number = route_number
-        self._name = 'stop_{stop_number}_route_{route_number}'.format(
-            stop_number=stop_number,
-            route_number=route_number
-        )
+        self._name = f"stop_{stop_number}_route_{route_number}"
         self._icon = ICONS[None]
         self.update()
 
     @property
     def name(self):
         """Return the name of the sensor."""
-        return "Route {}".format(self.route_number)
+        return f"Route {self.route_number}"
 
     @property
     def state(self):
