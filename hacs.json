@@ -5,6 +5,6 @@
   "zip_release": true,
   "filename": "xx_xx.zip",  
   "country": "NZ",
-  "render_readme": false,
+  "render_readme": true,
   "iot_class": "Cloud Polling"
 }
