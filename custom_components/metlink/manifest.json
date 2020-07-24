@@ -3,8 +3,13 @@
   "codeowners": ["@SmbKiwi"],
   "config_flow": false,
   "dependencies": [],
-  "documentation": "https://github.com/SmbKiwi/metlink-wellington-homeassistant",
+  "documentation": [
+      "https://github.com/SmbKiwi/metlink-wellington-homeassistant"
+      ],
+  "issue_tracker": [
+      "https://github.com/SmbKiwi/metlink-wellington-homeassistant/issues"
+      ],
   "domain": "metlink",
   "name": "Metlink Wellington",
-  "requirements": ["datetime", "requests"]
+  "requirements": []
 }
