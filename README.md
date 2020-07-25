@@ -48,13 +48,21 @@ ServiceID | The number or ID for the route (service)
 ServiceName | The name of the route (service)
 ServiceMode | Whether the service is a bus, train, or ferry
 
+### Installation:
+
+To install the component in Home Assistant:
+
+1. Copy the contents of this repository's custom_components directory to your <config_dir>/custom_components/ directory.
+1. Add configuration entries to your configuration.yaml file (see the Configuration section below). 
+1. Reboot Home Assistant.
+
 ### Configuration:
 
 From the [Metlink](https://www.metlink.org.nz/) website determine the exact stop and route number/ID to enter in the configuration for your desired location and route.
 
 You can obtain train station abbreviation codes (which are used as the stop_number for a train station) from  https://www.metlink.org.nz/getting-around/real-time-information/
 
-Then add the data to your configuration.yaml file as shown in the example:
+Then add the configuration entries to your configuration.yaml file as shown in the example:
 
 #### Example configuration.yaml entry
 
