@@ -1,0 +1,10 @@
+{
+  "name": "Metlink Wellington",
+  "domains": ["metlink", "sensor"],
+  "homeassistant": "0.97.0",
+  "zip_release": true,
+  "filename": "v1.0.0.zip",  
+  "country": "NZ",
+  "render_readme": true,
+  "iot_class": "Cloud Polling"
+}
