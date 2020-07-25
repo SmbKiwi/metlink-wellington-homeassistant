@@ -1,6 +1,6 @@
 
 {
-  "codeowners": ["@SmbKiwi"],
+  "codeowners": ["@SmbKiwi", "@Br3nda"],
   "config_flow": false,
   "dependencies": [],
   "documentation": [
