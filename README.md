@@ -67,6 +67,9 @@ To install using HACS:
 1. In Category drop down list, select Integration.
 1. In the ADD CUSTOM REPOSITORY field, paste: https://github.com/SmbKiwi/metlink-wellington-homeassistant .
 1. Click Save.
+1. Select Integrations.
+1. In the search field, enter 'metlink'.
+1. Click on the integration, and then click Install.
 1. Add configuration entries to your configuration.yaml file (see the Configuration section below). 
 1. Reboot Home Assistant.
 
