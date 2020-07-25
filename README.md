@@ -1,4 +1,4 @@
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs)  [![Version badge](https://img.shields.io/github/v/release/SmbKiwi/metlink-wellington-homeassistant)](https://github.com/SmbKiwi/metlink-wellington-homeassistant/releases)
 
 ![Bus](img/metlink-logo-busv2.png) ![Train](img/metlink-logo-trainv2.png) ![Ferry](img/metlink-logo-ferryv2.png)   
 
