@@ -50,9 +50,23 @@ ServiceMode | Whether the service is a bus, train, or ferry
 
 ### Installation:
 
+#### Manual Method
+
 To install the component in Home Assistant:
 
 1. Copy the contents of this repository's custom_components directory to your <config_dir>/custom_components/ directory.
+1. Add configuration entries to your configuration.yaml file (see the Configuration section below). 
+1. Reboot Home Assistant.
+
+#### HACS (Home Assistant Community Store) Custom Repository
+
+To install using HACS:
+
+1. In Home Assistant, open the HACS panel.
+1. Select Settings.
+1. In Category drop down list, select Integration.
+1. In the ADD CUSTOM REPOSITORY field, paste: https://github.com/SmbKiwi/metlink-wellington-homeassistant .
+1. Click Save.
 1. Add configuration entries to your configuration.yaml file (see the Configuration section below). 
 1. Reboot Home Assistant.
 
