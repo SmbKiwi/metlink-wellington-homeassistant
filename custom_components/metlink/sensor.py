@@ -5,9 +5,9 @@ Metlink Wellington Custom Component for Home Assistant.
 Support for Metlink's Wellington public transport using API.
 Bus, Train, Ferry. Great Wellington / Whanganui a Tara.
 
-Version: 1.0  (July 2020) - Initial Release
+Version: 2.0  (August 2020)
 
-Author:  SmbKiwi.
+Author:  SmbKiwi with some code from Br3nda
 
 Based on github.com/Br3nda/metlink-wellington-homeassistant
 by Brenda Wallace.
@@ -93,7 +93,7 @@ class MetlinkSensor(Entity):
     @property
     def name(self):
         """Return the name of the sensor."""
-        return f"Route {self.route_number}"
+        return f"Metlink Stop {self.stop_number} Route {self.route_number}"
 
     @property
     def state(self):
